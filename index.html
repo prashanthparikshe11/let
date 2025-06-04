@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Studio Booking</title>
+  <script>
+    const user = sessionStorage.getItem("user");
+    if (user) {
+      window.location.href = "dashboard.html";
+    } else {
+      window.location.href = "login.html";
+    }
+  </script>
+</head>
+<body>
+  Redirecting...
+</body>
+</html>
